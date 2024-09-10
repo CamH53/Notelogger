@@ -15,15 +15,14 @@ The project will be a reddit style web based notes sharing platform using the ME
 
 ## Assumptions and Constraints
 ### Assumptions:
-Team members have reliable internet access work on the project.
-The scope of the project will stay the same, with no major changes.
-Our stack is capable of supporting the platform’s functionality and scalability requirements.
-Team members will be able to adapt and learn if they encounter a problem while building the project
-Close friends who participate in user testing will provide sufficient feedback.
+- Team members have reliable internet access work on the project.
+- The scope of the project will stay the same, with no major changes.
+- Our stack is capable of supporting the platform’s functionality and scalability requirements.
+- Team members will be able to adapt and learn if they encounter a problem while building the project
+- Close friends who participate in user testing will provide sufficient feedback.
 
-## Constraints:
-### 13 week time limit.
-Only having 3 team members to provide the same amount of work as 4.
-Creating mobile support could provide too much of a challenge.
+### Constraints:
+- 13 week time limit.
+- Creating mobile support could provide too much of a challenge.
 
 
