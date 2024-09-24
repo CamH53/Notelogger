@@ -2,9 +2,14 @@ const mongoose = require("mongoose");
 
 mongoose.set('strictQuery', false);
 
-
-mongoose.connect("mongodb://127.0.0.1:27017/BlogApp").then(()=>{
-    console.log("connected!");
-}).catch((err)=>{
-    console.log(err);
+// Update with your actual credentials and connection string
+mongoose.connect("mongodb+srv://chirsh1:mIl5JhLdHdwOLIxc@group8cluster.w9iln.mongodb.net/<dbname>?retryWrites=true&w=majority", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
 })
+.then(() => {
+    console.log("Connected to MongoDB!");
+})
+.catch((err) => {
+    console.error("MongoDB connection error:", err);
+});
